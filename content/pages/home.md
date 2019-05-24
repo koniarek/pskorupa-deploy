@@ -15,7 +15,7 @@ welcomeButton:
 servicesTitle: ''
 bannerTitle: ''
 bannerDescription: ''
-bannerImage: /images/uploads/10.jpg
+bannerImage: /images/uploads/img_9149.jpg
 bannerButton:
   label: Umów sie na bezpłatną konsultację
   link: contact
