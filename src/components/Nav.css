@@ -1,0 +1,216 @@
+.Nav {
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 22;
+  font-size: 16px;
+  border-bottom: 1px solid var(--lightGrey);
+  border-bottom: 1px solid var(--lightGrey);
+  width: 100%;
+}
+
+.Nav--Container {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+}
+@media screen and (min-width: 1000px) {
+  .Nav--Container.container {
+    max-width: 100%;
+  }
+}
+
+.Nav--Container--Links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Nav--Container--Sep {
+  margin: 0 0.5rem;
+  border: 0.5px solid currentColor;
+  height: 1.5em;
+}
+
+.Nav--Container--Links > * + * {
+  margin-left: 1em;
+}
+
+.NavLinkGroup {
+  position: relative;
+}
+
+.NavLinkGroup svg {
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+  display: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.SubNav {
+  opacity: 0;
+  display: none;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 100%;
+  left: -8rem;
+  text-align: center;
+  width: 200px;
+  padding: 0.5rem 0 0 0;
+}
+
+.NavLinkGroup:hover .SubNav {
+  opacity: 1;
+  display: block;
+}
+
+.SubNav .NavLink {
+  margin: 0;
+  padding: 1.2rem 1rem;
+  margin: 0 0 0.1rem 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.SubNav .NavLink:hover {
+  background: var(--col1);
+}
+
+@media (max-width: 650px) {
+  .SubNav .NavLink {
+    margin: 0;
+    padding: 0.6rem 0;
+    margin: 0 0 0.1rem 0;
+    background: white;
+    color: var(--midGrey);
+    font-size: 1.2rem;
+  }
+
+  .SubNav .NavLink:hover {
+    background: white;
+    color: var(--col1);
+  }
+}
+
+.Nav .Logo {
+  margin-right: auto;
+  width: 29rem;
+}
+
+.NavLink--Phone {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+  padding: 0;
+  line-height: 1.9;
+}
+
+.NavLink--Button {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 21rem;
+  margin-top: 0.2rem;
+  font-size: 1.1rem;
+}
+.NavLink--Button .calculator {
+  margin: 0 1rem 0 0;
+  max-width: 1.4rem;
+}
+
+.Nav--MenuButton {
+  display: none;
+  margin-left: auto;
+  border: none;
+  background: transparent;
+}
+
+@media (max-width: 1440px) {
+  .Nav .Logo {
+    width: 20rem;
+  }
+
+  .Nav--Container--Links > * + * {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .Nav--Container {
+    display: flex;
+    height: auto;
+  }
+
+  .Nav .Logo {
+    width: 20rem;
+  }
+
+  .Nav--Container--Links {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    overflow-y: auto;
+  }
+
+  .Nav--Container--Links > * + * {
+    margin-left: 0;
+  }
+
+  .Nav--Container--Sep {
+    display: none;
+  }
+
+  .Nav--Container--Links.active {
+    display: -webkit-box;
+  }
+
+  .Nav--MenuButton {
+    display: block;
+    z-index: 1;
+  }
+
+  .NavLinkGroup .SubNav {
+    position: relative;
+    opacity: 1;
+    display: block;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .NavLinkGroup .NavLink {
+    text-align: center;
+  }
+
+  .NavLinkGroup svg {
+    display: block;
+  }
+
+  .NavLinkGroup svg,
+  .NavLinkGroup .SubNav {
+    transition: all 0.3s ease;
+  }
+
+  .NavLinkGroup svg {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  .NavLinkGroup.active svg {
+    transform: translateY(-50%) rotate(-180deg);
+  }
+
+  .NavLinkGroup.active .SubNav {
+    height: auto;
+  }
+}

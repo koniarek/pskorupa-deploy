@@ -1,0 +1,110 @@
+.SingleService {
+}
+
+.SingleService--BackgroundImage {
+  height: 50rem;
+}
+
+.SingleService--BackButton {
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.SingleService--BackButton svg {
+  transition: transform 0.2s ease-out;
+  transform: translateX(0);
+  height: 1.2em;
+}
+
+.SingleService--BackButton:hover svg,
+.SingleService--BackButton:focus svg {
+  transform: translateX(-0.25em);
+}
+
+.AccordionSection .Accordion {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.SingleProject .VideoSection {
+  padding: 0;
+}
+
+.AccordionSection .Accordion--item h2 {
+  font-size: 2.5rem;
+}
+
+.PriceSection {
+  background: var(--darkGrey);
+  color: white;
+}
+
+.PriceSection--Button {
+  display: inline-block;
+}
+
+.PriceSection--Calculator svg {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  opacity: 0.1;
+}
+
+.ServicePods > * + * {
+  margin-top: 10rem;
+}
+
+@media (max-width: 980px) {
+  .ServicePods > * + * {
+    margin-top: 0;
+  }
+}
+
+.ServicePods--Pod {
+  min-height: 35rem;
+}
+
+.WelcomeSection .one-half,
+.ServicePods--Pod .one-half {
+  padding: 2rem;
+  min-height: 30vh;
+  width: calc(48% - 4rem);
+}
+
+.WelcomeSection .one-half .BackgroundImage,
+.ServicePods--Pod .one-half .BackgroundImage {
+  height: 50rem;
+}
+
+@media (max-width: 600px) {
+  .WelcomeSection .one-half .BackgroundImage,
+  .ServicePods--Pod .one-half .BackgroundImage {
+    height: 30rem;
+  }
+}
+
+.WelcomeSection .one-half .image-shadow-left,
+.WelcomeSection .one-half .image-shadow-right,
+.ServicePods--Pod .one-half .image-shadow-left,
+.ServicePods--Pod .one-half .image-shadow-right {
+  height: 50rem;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .WelcomeSection .one-half .image-shadow-left,
+  .WelcomeSection .one-half .image-shadow-right,
+  .ServicePods--Pod .one-half .image-shadow-left,
+  .ServicePods--Pod .one-half .image-shadow-right {
+    height: 30rem;
+    position: relative;
+  }
+}
+.Pod--Even {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,232 @@
+.home--banner {
+  position: relative;
+}
+
+.home--banner-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  max-width: 542px;
+  width: 100%;
+  height: 785px;
+  z-index: 1;
+  position: relative;
+}
+.home--banner-sidebar:before {
+  content: '';
+  background: url('/images/banner-mask.png') 100% 0 no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 980px) {
+  .home--banner-sidebar:before {
+    display: none;
+  }
+  .home--banner-sidebar {
+    height: 650px;
+  }
+}
+@media (max-width: 650px) {
+  .home--banner-sidebar {
+    height: 450px;
+  }
+}
+.background-video {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.background-video video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.home--banner .PageHeader--Title {
+  color: black;
+  position: relative;
+  text-align: left;
+  max-width: 385px;
+  width: 100%;
+  font-size: 45px;
+  margin: 0 0 0 10rem;
+}
+@media (max-width: 650px) {
+  .home--banner .PageHeader--Title {
+    font-size: 35px;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+  }
+  .home--banner .PageHeader--Title::after {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home--banner .PageHeader--Title {
+    font-size: 30px;
+  }
+}
+
+.home--banner .Button {
+  position: relative;
+  margin: 2rem 0 8rem 0;
+}
+@media (max-width: 650px) {
+  .home--banner .Button {
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .home--banner-sidebar {
+    height: 400px;
+  }
+}
+
+/**/
+.TeamSection {
+  position: relative;
+}
+
+.TeamSection--Content {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.BenfitsSection .BackgroundImage {
+  background-repeat: no-repeat;
+  position: relative;
+  color: var(--col1);
+}
+
+.BenfitsSection .container .flex {
+  margin: 0 auto;
+}
+
+.PartnersSection {
+  padding-top: 0rem;
+}
+
+.PartnersSection .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.PartnersSection--Logo.one-quarter {
+  display: inline-block;
+  height: 80px;
+  width: calc(15% - 2rem) !important;
+  position: relative;
+  margin: 1rem 1rem 0 0;
+}
+
+@media (max-width: 600px) {
+  .PartnersSection--Logo.one-quarter {
+    width: calc(25% - 2rem) !important;
+  }
+}
+
+.PartnersSection--Logo img {
+  max-width: 80px;
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.PartnersSection--Logo .BackgroundImage {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease;
+}
+
+.PartnersSection--Logo:hover .BackgroundImage {
+  transform: translateY(-1px);
+}
+
+.BenfitsSection--Benfit {
+  padding: 0 1rem 4rem 0;
+}
+
+.BannerSection--Description {
+  min-height: 60px;
+  max-width: 516px;
+  opacity: 0.9;
+  color: #ffffff;
+  font-family: 'Avenir Next';
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 30px;
+}
+
+.VideoSection video {
+  max-width: 45%;
+}
+
+.ProjectsSection {
+  padding-bottom: 0rem !important;
+}
+
+@media (max-width: 500px) {
+  .TeamSection--Content {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .afterTitle {
+    font-size: 3rem !important;
+  }
+}
+
+.BenfitsSection--Benfit .one-quarter {
+  height: 5rem;
+}
+
+.VideoSection {
+  background-color: var(--darkGrey);
+  margin-top: 5rem;
+  color: white;
+  padding: 5rem 3rem;
+}
+
+@media (max-width: 700px) {
+  .VideoSection .container {
+    flex-direction: column;
+  }
+
+  .video-introduction {
+    max-width: 90% !important;
+    text-align: center;
+  }
+  .Home .VideoSection video,
+  .VideoSection video {
+    max-width: 100%;
+  }
+}
+
+.video-introduction {
+  max-width: 45%;
+}
+
+.VideoSection .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

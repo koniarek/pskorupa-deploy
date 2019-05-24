@@ -1,0 +1,5 @@
+.TeamMembers--Container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}

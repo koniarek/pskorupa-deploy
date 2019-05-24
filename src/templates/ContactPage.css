@@ -1,0 +1,39 @@
+.Contact .PageHeader {
+  margin: 0;
+}
+.Contact--Details {
+  margin-top: 3rem;
+}
+
+.Contact--Details-locations .red {
+  display: block;
+  color: var(--col1);
+  font-weight: bold;
+}
+
+.Contact--Details-locations a {
+  color: var(--darkGray);
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.Contact--Details-locations a:hover {
+  color: var(--col1);
+}
+.Contact--Details-locations svg {
+  margin: 0 1rem 0 0;
+}
+
+.Contact--otherLocation {
+  margin-top: 8rem;
+}
+
+@media (max-width: 1024px) {
+  .Contact--Details-locations {
+    margin-bottom: 5rem !important;
+  }
+
+  .Contact--Section .flex {
+  }
+}
