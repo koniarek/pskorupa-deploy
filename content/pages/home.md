@@ -2,9 +2,9 @@
 template: HomePage
 slug: ''
 externalVideoURL: ''
-videoPoster: /images/uploads/dekingdecks-timber-deck.jpg
+videoPoster: /images/uploads/433a3926.jpg
 title: Paulina Skorupa - Trener Personalny
-featuredImage: /images/uploads/11.jpg
+featuredImage: /images/uploads/img_9149.jpg
 featureButton:
   label: ''
   link: ''
