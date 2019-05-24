@@ -74,8 +74,6 @@ export default ({ children, data }) => {
 
         <Nav allPages={allPages} globalSettings={globalSettings} />
 
-        <Fragment>{children()}</Fragment>
-
         <Footer globalSettings={globalSettings} />
       </main>
     </Fragment>
