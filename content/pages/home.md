@@ -3,48 +3,41 @@ template: HomePage
 slug: ''
 externalVideoURL: ''
 videoPoster: /images/uploads/dekingdecks-timber-deck.jpg
-title: Let's start your new deck and patio together
+title: Paulina Skorupa - Trener Personalny
 featuredImage: /images/uploads/11.jpg
 featureButton:
-  label: Get started
-  link: contact
-welcomeTitle: ' We can simply make it happen.'
+  label: ''
+  link: ''
+welcomeTitle: Paulina Skorupa - Trener Personalny
 welcomeButton:
-  label: Our Process
+  label: Mój Proces Treningowy
   link: about/process
-servicesTitle: How can we help you today?
-bannerTitle: 25 Year Deck Guarantee
-bannerDescription: >
-  As we are confident that our workmanship and materials used are of the highest
-  standard we are pleased to be able to offer you a 25 year warranty on our
-  decks. T's & C's apply*
+servicesTitle: ''
+bannerTitle: ''
+bannerDescription: ''
 bannerImage: /images/uploads/10.jpg
 bannerButton:
-  label: Enquire
+  label: Umów sie na bezpłatną konsultację
   link: contact
-teamTitle: DeKing Decks – Brisbane & Gold Coast – The Timber Deck Builder Specialists
+teamTitle: O Mnie
 teamDescription: >-
-  Since 2003 the friendly [team of
-  people](https://deking-decks.netlify.com/about/team/) at Deking have been
-  designing and building all types of Decks, Verandahs, Patios, Carports,
-  Pergolas, Pool Houses and all outdoor living spaces. We pride ourselves on our
-  care, quality, [our
-  guarantees](https://deking-decks.netlify.com/about/guarantees/) and our
-  ability to see the potential in all backyards for our customers. Building on
-  our specialist knowledge and personalised services, is an affordable and easy
-  way to enhance lifestyle, connect to your family whilst also increasing both
-  living space and value in your home. From private residences to commercial
-  projects we are proud of what we do. We invite you to talk to us, or check out
-  our[ 6 simple step
-  process](https://deking-decks.netlify.com/quote-calculator/), our extensive
-  gallery in our [projects](https://deking-decks.netlify.com/projects/) or try
-  out our online pricing
-  [calculators](https://deking-decks.netlify.com/quote-calculator/). We are here
-  to help and can simply make it happen.
-teamImage: /images/uploads/team.jpg
+  Nazywam się Paulina Skorupa i jestem mgr AWF Wrocław, Master Personal Trainer
+  LFA, Instruktor Fitness, Pilates oraz Indoor Cycling. Półfinalistka
+  ogólno-polskiego konkursu Trener Roku w 2015 r. 
+
+
+  Jestem wymagającym trenerem, który oczekuje od swoich podopiecznych pełnego
+  zaangażowania. Zwracam szczególną uwagę na aspekt prozdrowotny oraz technikę
+  wykonywanych ćwiczeń. Jestem fanką treningu funkcjonalnego oraz siłowego.
+
+
+  Od moich podopiecznych najczęściej słyszę, że dzięki treningom ze mną są
+  sprawniejsi, silniejsi, zdrowsi a przede wszystkim czują się lepiej w swoim
+  ciele.
+teamImage: ''
 teamButton:
-  label: About us
-  link: about
+  label: ''
+  link: ''
 benefitsTitle: Benefits of a timber deck
 benefits:
   - description: >-
