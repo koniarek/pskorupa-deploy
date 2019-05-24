@@ -2,8 +2,8 @@
 template: HomePage
 slug: ''
 externalVideoURL: ''
-videoPoster: /images/uploads/433a3926.jpg
-title: Paulina Skorupa - Trener Personalny
+videoPoster: /images/uploads/img_9149.jpg
+title: FIT YOU
 featuredImage: /images/uploads/img_9149.jpg
 featureButton:
   label: ''
