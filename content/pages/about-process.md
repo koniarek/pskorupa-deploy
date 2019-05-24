@@ -6,78 +6,17 @@ subtitle: Pracuję zgodnie ze sprawdzoną metodą
 featuredImage: /images/uploads/433a3886.jpg
 processes:
   - buttonText: ''
-    content: >-
-      Call or email us to arrange a convenient time for an in home design
-      consultation on a professionally built deck, patio roof or carport.  Our
-      process will provide you with a free fixed price quotation.
-
-
-      Phone: 3804 6400
-
-
-      Email: admin@deking.com.au
-    title: Get in Touch
+    content: ''
+    title: Nawiążmy Kontakt
   - buttonText: ''
-    content: >-
-      Our experienced trade professional will visit you to listen to your ideas
-      and needs. They will show you different materials and design styles
-      considering your desired lifestyle, your homes architectural style and
-      budget.
-
-
-      * Discuss your needs and what you wish to achieve
-
-      * Share ideas on the potential of your outdoor living space
-
-      * Measure your outdoor area and draw an accurate sketch of your deck/patio
-      project
-
-      * Show you photos of previous projects and samples of materials and
-      colours
-
-      * Advise you on council regulations (Boundary setback’s etc.) and building
-      codes.
-    title: 'Dream, Discuss, Design'
+    content: ''
+    title: 'Omówmy cele do realizacji '
   - buttonText: ''
-    content: >-
-      Following presentation of the design, discussion on time frames and
-      council fees, a fixed price quotation and design documents are now
-      prepared ready for your approval.
-
-
-      After your approval, a Master Builders contract is prepared for signing,
-      along with a 5-10% deposit invoice. Payments are made via Bank transfer or
-      credit card. Financing options are also available.
-
-
-      With over 15 years’ experience, Deking project management makes it simple.
-      We take care of your project including necessary documents, and drafted
-      plans, as well as Council lodgements/permits and Queensland Building and
-      construction commission (QBCC) insurances.
-
-
-      Your payments are scheduled into stages.
-
-
-      * 5-10% deposit for materials prior to commencement
-
-      * Progress payments in line with completed construction stages
-
-      * 5% Practical completion
-    title: 'Design approvals/Council permits, and Quotation approval'
+    content: ''
+    title: Wykonujemy wszystkie niezbędne badania
   - buttonText: ''
-    content: >-
-      Sit back and watch your new project come to life.
-
-
-      Our 25-year deck guarantee and 15-year patio guarantee (T’s & C’s apply)
-      provide you with peace of mind with regards to site safety and
-      workmanship.
-
-
-      Deking remove all waste materials on completion as a part of our tidy deck
-      guarantee
-    title: Construction Commences
+    content: ''
+    title: ćwiczenia na redukcję
   - buttonText: ''
     content: >-
       On completion of all our workmanship, together with you, we will perform a
@@ -89,32 +28,22 @@ processes:
 
       Deking will give you a helpful maintenance manual with information that
       will keep your project looking at its best for many years to come.
-    title: Final inspection
+    title: ćwiczenia dopasowane do pracy w trybie siedzącym
   - buttonText: ''
-    content: >-
-      Your new outdoor living space is now complete and ready for your
-      enjoyment.
-
-
-      In 12 months’ time, we will return to do a maintenance check as part of
-      the care and warranty package we provide.
-    title: Enjoy
-bannerTitle: Easter Patio special offer
-bannerDescription: |-
-  $500 discount on all Decks and/or Patio roofs, minimum size 25m2
-  not valid with interest free finance.
-  Offer ends 30th April. 
-bannerImage: >-
-  /images/uploads/deking-patio-roofing-options-how-to-choose-the-right-patio-roof-and-why-they’re-always-a-good-option.jpg
+    content: ''
+    title: ćwiczenia - rzeźba sylwetki
+bannerTitle: >-
+  Przemyślany plan treningowy jest bardzo ważny. Moja metoda skutecznie pomaga
+  moim klientiom od lat.
+bannerDescription: ' '
+bannerImage: /images/uploads/433a3926.jpg
 bannerButton:
-  label: Enquire
+  label: Współpraca
   link: contact
 meta:
   canonicalLink: ''
-  description: >-
-    Working together with Deking provides clarity and confidence from initial
-    contact to completion in 6 simple steps.
+  description: ''
   noindex: false
-  title: Our Process | Deking Decks
+  title: ''
 ---
 
