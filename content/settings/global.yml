@@ -1,19 +1,18 @@
-siteTitle: Deking Decks
-siteUrl: 'https://dekingdecks.thrivex.xyz/'
-siteDescription: >-
-  Some engaging and SEO-rich copy goes here lorem ipsum dolor sit amet,
-  consectetuer adipiscing elit.
-phone: 1800 335 464
-phone2: 07 3804 6400
-email: info@dekingdecks.com.au
-warrantyLogo: /images/uploads/25-year-warranty.png
+siteTitle: paulinaskorupa.pl
+siteUrl: pskorupa-deploy.netlify.com
+siteDescription: 'fitness, personal trainer, trener presonalny'
+phone: 507 921 414
+phone2: 507 921 414
+email: skorupa.paulina@gmail.com
+warrantyLogo: ''
 socialMediaCard:
-  facebook: 'https://www.facebook.com/dekingdecks/'
+  facebook: 'https://www.facebook.com/p.s.ifityou/'
   image: /images/uploads/card-og.jpg
-  instagram: 'https://www.instagram.com/dekingdecks/'
-  pintrest: 'https://www.pinterest.com.au/DekingDecks/'
-  twitter: 'https://www.houzz.com.au/pro/deking/deking-pty-ltd?irs=US'
-  youtube: 'https://www.youtube.com/channel/UCtcPx6hv5-mBISS-YdQTWKw'
+  instagram: >-
+    https://www.instagram.com/paulina_skorupa/?fbclid=IwAR3k92ndvj8AHAyRGbIQwrn673u1cbCSqW9ojF97F5LQwIsSTdkM8J05qF4
+  pintrest: ''
+  twitter: ''
+  youtube: ''
 headerScripts: |
   <!-- Facebook Pixel Code -->
   <script>
