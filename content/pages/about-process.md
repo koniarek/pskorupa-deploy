@@ -34,7 +34,7 @@ processes:
     title: ćwiczenia - rzeźba sylwetki
 bannerTitle: >-
   Przemyślany plan treningowy jest bardzo ważny. Moja metoda skutecznie pomaga
-  moim klientiom od lat.
+  moim klientom od lat.
 bannerDescription: ' '
 bannerImage: /images/uploads/433a3926.jpg
 bannerButton:
