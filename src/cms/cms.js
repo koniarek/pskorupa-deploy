@@ -3,8 +3,6 @@ import CMS from 'netlify-cms'
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
-import { AboutPageTemplate } from '../templates/AboutPage'
-import { FinancePageTemplate } from '../templates/FinancePage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { ServicesIndexTemplate } from '../templates/ServicesIndex'
 import { ProjectsIndexTemplate } from '../templates/ProjectsIndex'
@@ -12,9 +10,7 @@ import { SingleServiceTemplate } from '../templates/SingleService'
 import { SingleProjectTemplate } from '../templates/SingleProject'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import { ProcessPageTemplate } from '../templates/ProcessPage'
-import { TeamPageTemplate } from '../templates/TeamPage'
-import { JoinPageTemplate } from '../templates/JoinPage'
-import { GuaranteesPageTemplate } from '../templates/GuaranteesPage'
+
 
 if (
   window.location.hostname === 'localhost' &&
@@ -30,12 +26,7 @@ if (
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-page', ({ entry }) => (
-  <AboutPageTemplate {...entry.toJS().data} />
-))
-CMS.registerPreviewTemplate('about-finance-page', ({ entry }) => (
-  <FinancePageTemplate {...entry.toJS().data} />
-))
+
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
@@ -57,12 +48,4 @@ CMS.registerPreviewTemplate('posts', ({ entry }) => (
 CMS.registerPreviewTemplate('about-process-page', ({ entry }) => (
   <ProcessPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-team-page', ({ entry }) => (
-  <TeamPageTemplate {...entry.toJS().data} />
-))
-CMS.registerPreviewTemplate('about-join-page', ({ entry }) => (
-  <JoinPageTemplate {...entry.toJS().data} />
-))
-CMS.registerPreviewTemplate('about-guarantees-page', ({ entry }) => (
-  <GuaranteesPageTemplate {...entry.toJS().data} />
-))
+
